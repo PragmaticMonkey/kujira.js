@@ -5002,6 +5002,31 @@
         "markets": false
       },
       {
+        "id": 283,
+        "address": "kujira19qf8syyrf2sz357jyxsha4see3fuf4c4j7535027e0maqs2nl9tqujk26x",
+        "config": {
+          "owner": "kujira1zspr6va4ev78lpsh48s57nv6szxj4cdywt2kkg",
+          "denoms": [
+            {
+              "native": "factory/kujira13x2l25mpkhwnwcwdzzd34cr8fyht9jlj7xu9g4uffe36g3fmln8qkvm3qn/uauto"
+            },
+            {
+              "native": "ibc/FE98AAD68F02F03565E9FA39A5E627946699B2B07115889ED812D8BA639576A9"
+            }
+          ],
+          "price_precision": {
+            "decimal_places": 6
+          },
+          "decimal_delta": 0,
+          "is_bootstrapping": false,
+          "fee_taker": "0.0015",
+          "fee_maker": "0.00075",
+          "fee_address": "kujira1xajlwpfpjnvwehurrj2w7d8ru6sm4579vzfp44c6fd5sj86u6tvqdk6mjn"
+        },
+        "pairs": false,
+        "markets": false
+      },
+      {
         "id": 370,
         "address": "kujira18dzwre82pl3yevrw8cl3lad7kpefwfx6fhpt7xn6v3w0u3mvwfuqsavh9s",
         "config": {
@@ -10971,6 +10996,36 @@
           },
           "decimal_delta": 0,
           "fin_contract": "kujira15ujk7ecrzw73zkvf203fy0e5hf38tzxrgzymnhr99zh5rjqeel9s3m23ay",
+          "intervals": [
+            "0.001",
+            "0.005",
+            "0.005",
+            "0.01",
+            "0.01",
+            "0.05",
+            "0.1",
+            "0.2"
+          ],
+          "fee": "0.001",
+          "amp": "1"
+        },
+        "pairs": false,
+        "markets": false
+      },
+      {
+        "id": 294,
+        "address": "kujira1adtqsr2cjlywmvv4y7n5hx5wzxs69eazpv8z32skfwwdyr3zr4dq9z40cs",
+        "config": {
+          "owner": "kujira1tsekaqv9vmem0zwskmf90gpf0twl6k57e8vdnq",
+          "denoms": [
+            "factory/kujira13x2l25mpkhwnwcwdzzd34cr8fyht9jlj7xu9g4uffe36g3fmln8qkvm3qn/uauto",
+            "ibc/FE98AAD68F02F03565E9FA39A5E627946699B2B07115889ED812D8BA639576A9"
+          ],
+          "price_precision": {
+            "decimal_places": 6
+          },
+          "decimal_delta": 0,
+          "fin_contract": "kujira19qf8syyrf2sz357jyxsha4see3fuf4c4j7535027e0maqs2nl9tqujk26x",
           "intervals": [
             "0.001",
             "0.005",
